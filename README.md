@@ -1,9 +1,9 @@
 ## PCA
 pyPCA.py contains three methods, based on Principal Component Analysis (PCA), to compute spatial and temporal, or spatio-temporal patterns of variability in a given geospatial time series data set. The three methods include:
 
-`Empirical Orthogonal Function Analysis (EOFA)` \\
-`Singular Spectrum Analysis (SSA)` \\
-`Nonlinear Laplacian Spectral Analysis (NLSA)` \\
+`Empirical Orthogonal Function Analysis (EOFA)` \n
+`Singular Spectrum Analysis (SSA)` \n
+`Nonlinear Laplacian Spectral Analysis (NLSA)` \n
 
 The code was built based around the theory outlined in sections 2.2, 2.3, and 2.4 of [Bushuk 2015](https://search.proquest.com/docview/1711150581?pq-origsite=gscholar&fromopenview=true) respectively.
 

@@ -3,7 +3,7 @@ pyPCA.py contains three methods, based on Principal Component Analysis (PCA), to
 
 `Empirical Orthogonal Function Analysis (EOFA)`\
 `Singular Spectrum Analysis (SSA)`\
-`Nonlinear Laplacian Spectral Analysis (NLSA)`\
+`Nonlinear Laplacian Spectral Analysis (NLSA)`
 
 The code was built based around the theory outlined in sections 2.2, 2.3, and 2.4 of [Bushuk 2015](https://search.proquest.com/docview/1711150581?pq-origsite=gscholar&fromopenview=true) respectively.
 

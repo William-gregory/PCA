@@ -12,4 +12,5 @@ See examples of each of these methods in the accompanying Jupyter Notebook. In o
 `NumPy`\
 `SciPy`
 
+![alt text](https://github.com/William-gregory/PCA/blob/main/images/EOFA.png)
 

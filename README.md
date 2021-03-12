@@ -5,11 +5,11 @@ pyPCA.py contains three methods, based on Principal Component Analysis (PCA), to
 `Singular Spectrum Analysis (SSA)`\
 `Nonlinear Laplacian Spectral Analysis (NLSA)`
 
-The code was built based around the theory outlined in sections 2.2, 2.3, and 2.4 of [Bushuk 2015](https://search.proquest.com/docview/1711150581?pq-origsite=gscholar&fromopenview=true) respectively.
+The code was built based around the theory outlined in sections 2.2, 2.3, and 2.4 respectively of [Bushuk 2015](https://search.proquest.com/docview/1711150581?pq-origsite=gscholar&fromopenview=true).
 
 See examples of each of these methods in the accompanying Jupyter Notebook. In order to use each of these methods the following Python packages are required:
 
-`NumPy`
+`NumPy`\
 `SciPy`
 
 

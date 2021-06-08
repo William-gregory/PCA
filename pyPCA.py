@@ -16,7 +16,7 @@ class PCA:
             self.weights = np.sqrt(np.cos(np.radians(weights)))
             self.weights[np.isnan(self.weights)] = np.sqrt(np.cos(np.radians(90)))
         else:
-            self.weights = np.sqrt(self.weights)
+            self.weights = np.sqrt(weights)
         self.data = np.multiply(data,self.weights[:,:,np.newaxis])
         self.IDs = np.where(np.nanmax(np.abs(self.data),axis=2)>0)
         self.n = np.shape(self.IDs)[1]

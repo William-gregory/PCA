@@ -18,7 +18,7 @@ class PCA:
         else:
             self.weights = np.sqrt(weights)
         self.data = np.multiply(data,self.weights[:,:,np.newaxis])
-        self.IDs = np.where(np.nanmax(np.abs(self.data),axis=2)>0)
+        self.IDs = np.where(~np.isnan(self.data).any(2))
         self.n = np.shape(self.IDs)[1]
         self.dimX,self.dimY,self.dimT = self.data.shape
         
